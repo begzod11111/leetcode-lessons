@@ -86,10 +86,11 @@
  * @return {void}
  */
 // const map = function (arr, fn) {
+//     if (!arr.length) return []
 //     return arr.reduce((acc, item, index) => {
-//         acc.push(fn(item, index))
-//         return acc;
-//     }, [])
+//         arr[index] = fn(item, index)
+//         return arr;
+//     }, 0)
 // };
 //
 //
