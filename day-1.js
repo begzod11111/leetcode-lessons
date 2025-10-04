@@ -31,4 +31,23 @@
  */
 
 
+/**
+ * @param {string} val
+ * @return {Object}
+ */
+// const expect = function (val) {
+//
+//     this.toBe = function (item) {
+//         if (item === val) return true
+//         throw new Error("Not Equal")
+//     }
+//
+//     this.notToBe = function (item) {
+//         return item !== val ? true : "Equal"
+//     }
+//
+//     return this
+// };
+//
+
 
