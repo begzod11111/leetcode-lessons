@@ -51,3 +51,24 @@
 //
 
 
+/**
+ * @param {integer} init
+ * @return { increment: Function, decrement: Function, reset: Function }
+ */
+// const createCounter = function (init) {
+//     return {
+//         init,
+//         res: init,
+//         increment: function () {
+//             return ++this.res
+//         },
+//         decrement: function () {
+//             return --this.res
+//         },
+//         reset: function () {
+//             return this.res = init
+//         }
+//     }
+// };
+
+
