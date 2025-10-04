@@ -72,3 +72,28 @@
 // };
 
 
+/**
+ * const counter = createCounter(5)
+ * counter.increment(); // 6
+ * counter.reset(); // 5
+ * counter.decrement(); // 4
+ */
+
+
+/**
+ * @param {number[]} arr
+ * @param {Function} fn
+ * @return {void}
+ */
+// const map = function (arr, fn) {
+//     return arr.reduce((acc, item, index) => {
+//         acc.push(fn(item, index))
+//         return acc;
+//     }, [])
+// };
+//
+//
+// const fn = function plusone(n) { return n + 1; }
+// const arr = [1, 2, 3]
+//
+// console.log(map(arr, fn))  2 4 6 8
