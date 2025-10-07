@@ -75,3 +75,38 @@
 // };
 // const fn = compose([x => x + 1, x => 2 * x])
 // console.log(fn(4))
+
+
+
+// мое решение
+`
+    характеристики:
+    Время выполнения 50 РС Битс 19.10 %
+    Память 52.92 МБ Битс 89,67 %
+
+`
+/**
+ * @param {...(null|boolean|number|string|Array|Object)} args
+ * @return {number}
+ */
+// const argumentsLength = function (...args) {
+//  return args.length
+// };
+
+
+// решение с интернета
+
+/** param {...*} args
+ * @return {number}
+ */
+`
+    характеристики:
+    Время выполнения 40 РС Битс 72,06 %
+    Память 53.00 МБ Битс 87.00 %
+
+`
+// const argumentsLength = function () {
+//  return arguments.length;
+// };
+
+
