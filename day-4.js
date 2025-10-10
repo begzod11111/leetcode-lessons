@@ -81,3 +81,19 @@ const addTwoPromises = async function (promise1, promise2) {
  * addTwoPromises(Promise.resolve(2), Promise.resolve(2))
  *   .then(console.log); // 4
  */
+
+/**
+ * @param {number} millis
+ * @return {Promise}
+ */
+async function sleep(millis) {
+    await new Promise(() => setTimeout(() => console.log(), millis))
+    return millis
+}
+
+
+sleep(1000).then(() => console.log('after 100 ms')) // 100
+/**
+ * let t = Date.now()
+ * sleep(100).then(() => console.log(Date.now() - t)) // 100
+ */
