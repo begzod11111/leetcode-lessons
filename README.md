@@ -9,3 +9,5 @@
 ## Материалы
 
 - [Документальный гид: Node.js, V8, libuv и event loop](./nodejs-documentary.md)
+- [JavaScript: типы данных, строки, массивы, объекты и 100 задач](./javascript-data-types-and-100-tasks.md)
+- [Файл для решения 100 базовых задач](./javascript-basics-100-tasks.js)
