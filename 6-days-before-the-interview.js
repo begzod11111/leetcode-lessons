@@ -33,3 +33,13 @@
 //   }, [])
 //     return array.join("")
 // }
+
+
+// https://www.codewars.com/kata/546f922b54af40e1e90001da/train/javascript
+
+function alphabetPosition(text) {
+    return  text.toLowerCase().replace(/[^a-z]/g, "").split("").map(curr => {
+        return curr.charCodeAt(0) - 96
+    }).join(" ")
+
+}
