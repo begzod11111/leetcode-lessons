@@ -57,5 +57,30 @@
 //     return recursiveFunc(num, 0)
 // }
 
+// https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript
 
-console.log(persistence(2334))
+function getSum(a, b)
+{
+   if (a === b){
+     return a
+   }
+  if (a > b) {
+    [a, b] = [b, a]
+  }
+
+  function getInteral(a, b){
+    const arr = []
+    for (let i = a; i <= b; i++){
+      arr.push(i)
+    }
+    return arr
+  }
+    console.log(getInteral(a, b))
+  return getInteral(a, b).reduce((acc, cur) => {
+    return acc + cur
+  }, 0)
+
+}
+
+
+console.log(getSum(-4, -1))
