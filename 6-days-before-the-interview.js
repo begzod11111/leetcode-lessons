@@ -59,28 +59,58 @@
 
 // https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript
 
-function getSum(a, b)
-{
-   if (a === b){
-     return a
-   }
-  if (a > b) {
-    [a, b] = [b, a]
-  }
+// function getSum(a, b)
+// {
+//    if (a === b){
+//      return a
+//    }
+//   if (a > b) {
+//     [a, b] = [b, a]
+//   }
+//
+//   function getInteral(a, b){
+//     const arr = []
+//     for (let i = a; i <= b; i++){
+//       arr.push(i)
+//     }
+//     return arr
+//   }
+//     console.log(getInteral(a, b))
+//   return getInteral(a, b).reduce((acc, cur) => {
+//     return acc + cur
+//   }, 0)
+//
+// }
 
-  function getInteral(a, b){
-    const arr = []
-    for (let i = a; i <= b; i++){
-      arr.push(i)
-    }
-    return arr
-  }
-    console.log(getInteral(a, b))
-  return getInteral(a, b).reduce((acc, cur) => {
-    return acc + cur
-  }, 0)
 
-}
+// https://www.codewars.com/kata/56541980fa08ab47a0000040/train/javascript
+//
+// function printerError(s) {
+//     const errors = s.match(/[n-z]/g) || []
+//     return `${errors.length}/${s.length}`;
+// }
 
 
-console.log(getSum(-4, -1))
+// https://www.codewars.com/kata/5262119038c0985a5b00029f/train/javascript
+
+
+// function isPrime(num) {
+//     if (num <= 1) {
+//         return false
+//     }
+//     if (num === 2 || num === 3) {
+//         return true
+//     }
+//     const sqrtNum = Math.round(Math.sqrt(num));
+//     console.log(sqrtNum);
+//     let i = 2
+//     while (i <= sqrtNum) {
+//         if (!(num % i)) {
+//           return false
+//         }
+//       i++
+//     }
+//     return true
+//
+// }
+
